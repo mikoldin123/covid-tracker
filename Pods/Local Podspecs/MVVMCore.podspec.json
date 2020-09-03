@@ -1,0 +1,33 @@
+{
+  "name": "MVVMCore",
+  "version": "0.0.1",
+  "summary": "MVVM-C Implementation",
+  "description": "A take on the MVVM-C architecture",
+  "homepage": "http://www.google.com",
+  "license": {
+    "type": "MIT"
+  },
+  "authors": {
+    "Mac Villanda": "mac.villanda@gmail.com"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source": {
+    "http": "file:/Users/mikoldin/Desktop/RND/COVID Tracker/MVVMCore/MVVMCore/"
+  },
+  "frameworks": "UIKit",
+  "dependencies": {
+    "Alamofire": [
+      "~> 4.8.0"
+    ],
+    "RxSwift": [
+      "~> 5.1.0"
+    ],
+    "RxCocoa": [
+      "~> 5.1.0"
+    ]
+  },
+  "source_files": "MVVMCore/**/*.swift",
+  "exclude_files": "Classes/Exclude"
+}

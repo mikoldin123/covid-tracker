@@ -1,0 +1,6 @@
+framework module MVVMCore {
+  umbrella header "MVVMCore-umbrella.h"
+
+  export *
+  module * { export * }
+}
